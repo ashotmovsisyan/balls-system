@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<form>
+    <div>
+        <label>
+            <span>environment</span>
+            <select id="Environment"></select>
+        </label>
+        <button class="start-button" type="submit">start</button>
+        <button class="continue-button" type="button">continue</button>
+        <button class="pause-button" type="button">pause</button>
+    </div>
+    <div>
+        <label>
+            <span>ball's size</span>
+            <input class="ball-size-input" type="number" min="1" max="25" step="1" value="6">
+        </label>
+        <label>
+            <span>ball's number</span>
+            <input class="ball-number-input" type="number" min="1" max="150" step="1" value="100">
+        </label>
+    </div>
+    <div>
+        <label>
+            <span>line's thickness</span>
+            <input class="line-thickness-input" type="number" min="1" max="10" step="1" value="4">
+        </label>
+    </div>
+</form>
+<div class="wrapper">
+    <div class="animation">
+    </div>
+</div>
+<script src="js/math.js"></script>
+<script src="js/core.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

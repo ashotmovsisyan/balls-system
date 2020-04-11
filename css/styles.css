@@ -1,0 +1,65 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.animation {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.ball {
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.point {
+    position: absolute;
+    border-color: black;
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.line {
+    position: absolute;
+    border-color: black;
+    background-color: black;
+    border-style: solid;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    transform-origin: left center;
+    width: 100px;
+}
+
+.ball--gray {
+    border-color: gray;
+    background-color: gray;
+}
+
+.ball--red {
+    border-color: red;
+    background-color: red;
+}
+
+.ball--blue {
+    border-color: blue;
+    background-color: blue;
+}
+
+.ball--black {
+    border-color: black;
+    background-color: black;
+}
